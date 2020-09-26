@@ -5,7 +5,9 @@
 -   Create a new Database and connect with Laravel into .env
 -   Into your terminal you need to run the next script
 
-    < User::factory()->count(12)->create() >
+    -   < php artisan tinker >
+    -   < User::factory()->count(12)->create() >
+
     That script create a 12 users on your datebase
 
 -   And now, just go to your network browser and search for the crud on it
